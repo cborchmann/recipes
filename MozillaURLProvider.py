@@ -91,7 +91,7 @@ class MozillaURLProvider(Processor):
         # Determine product_name, release, locale, and base_url.
         product_name = self.env["product_name"]
         release = self.env.get("release", "latest")
-        locale = self.env.get("locale", "en-US")
+        locale = self.env.get("locale", "de-DE")
         base_url = self.env.get("base_url", MOZ_BASE_URL)
 
         self.env["url"] = self.get_mozilla_dmg_url(
