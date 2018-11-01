@@ -12,18 +12,18 @@ See the following URLs for more info:
     http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
     http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.cborchmann.install.firefox-de_DE</string>
+    <string>com.github.cborchmann.install.firefox-de</string>
     <key>Input</key>
     <dict>
         <key>RELEASE</key>
         <string>latest</string>
         <key>LOCALE</key>
-        <string>de_DE</string>
+        <string>de</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.cborchmann.download.firefox-de_DE</string>
+    <string>com.github.cborchmann.download.firefox-de</string>
     <key>Process</key>
     <array>
         <dict>
