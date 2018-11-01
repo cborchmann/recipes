@@ -56,9 +56,9 @@ class MozillaURLProvider(Processor):
         },
         "locale": {
             "required": False,
-            "default": 'en-US',
+            "default": 'de-DE',
             "description":
-                "Which localization to download, default is 'en-US'.",
+                "Which localization to download, default is 'de-DE'.",
         },
         "base_url": {
             "required": False,
